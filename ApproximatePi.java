@@ -1,0 +1,24 @@
+public class ApproximatePi {
+    public static void main(String[] args) {
+
+        // First approximation with terms up to 1/11
+        double pi1 = 4 * (1.0 
+                        - 1.0/3 
+                        + 1.0/5 
+                        - 1.0/7 
+                        + 1.0/9 
+                        - 1.0/11);
+
+        // Second approximation with terms up to 1/13
+        double pi2 = 4 * (1.0 
+                        - 1.0/3 
+                        + 1.0/5 
+                        - 1.0/7 
+                        + 1.0/9 
+                        - 1.0/11
+                        + 1.0/13);
+
+        System.out.println("Approximation using terms up to 1/11: " + pi1);
+        System.out.println("Approximation using terms up to 1/13: " + pi2);
+    }
+}
